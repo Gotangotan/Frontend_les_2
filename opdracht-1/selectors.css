@@ -3,33 +3,104 @@
 ========================================================= */
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.img_width {
+    width: 100%
+}
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
 
-
-
+ul {
+    color: hsl(110, 29%, 52%);
+}
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
 
+.footer {
+font-size: 12px;
+}
 
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 
-
-
+a {
+    text-decoration: none;
+    color: hsl(359, 79%, 56%);
+}
+a:hover {
+        color: blue;
+}
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
+
+.About {
+    color: black;
+}
+.About:hover {
+    color: black;
+    font-weight: bold;
+}
+.About:visited {
+    color: blue;
+    font-weight: normal;
+}
+.Articles {
+    color: black;
+}
+.Articles:hover {
+    color: black;
+    font-weight: bold;
+}
+.Articles:visited {
+    color: blue;
+    font-weight: normal;
+}
+.Places {
+    color: black;
+}
+.Places:hover {
+    color: black;
+    font-weight: bold;
+}
+.Places:visited {
+    color: blue;
+    font-weight: normal;
+}
+.Get-in-Touch {
+    color: black;
+}
+.Get-in-Touch:hover {
+    color: black;
+    font-weight: bold;
+}
+.Get-in-Touch:visited {
+    color: blue;
+    font-weight: normal;
+}
+
 
 
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
-
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-
+.highlight:hover{
+    border: blue solid 2px;
+}
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 
 
+h1,h2,h3{
+    font-family: 'Bree Serif', serif;
+}
